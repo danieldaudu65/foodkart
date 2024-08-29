@@ -6,9 +6,7 @@ export default {
     mode: 'jiit',
   theme: {
     extend: {
-      colors: {
-    
-      }
+     
     },
   },
   plugins: [],
