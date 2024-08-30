@@ -1,10 +1,10 @@
 import React from 'react';
-import { fb, instagram, iphone, linkedin, logo2, playstore, twitter } from '../assets';
+import { fb, instagram, iphone, linkedin, logo, playstore, twitter } from '../assets';
 
 const Footer = () => {
     return (
         <div className='m-auto w-[100%] p-4 lg:w-[85%] flex flex-col justify-center items-center bg-black text-white'>
-            <img src={logo2} alt="" className='w-[50%] mt-4'/>
+            <img src={logo} alt="" className='w-[50%] mt-4'/>
             <h1 className='text-[20px] my-6 font-[600]'>Get Your Order in Minutes</h1>
             <div className='flex my-2 mb-4 justify-center gap-2 items-center'>
                 <button  className='flex py-2 rounded-lg px-2 bg-[#D00000] p-1 bg- items-center '>
