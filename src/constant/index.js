@@ -1,4 +1,4 @@
-import { bicycle, enjoy, iphone, meal, playstore } from "../assets"
+import { bicycle, enjoy, GodspowerImage, hiw1, hiw2, hiw3, iphone, kayodeImage, KelechiImage, meal, orderbrouse, orderget, orderplace, playstore, whyeaticon1, whyeaticon2, whyeaticon3 } from "../assets"
 
 const fag = [
     {
@@ -84,36 +84,108 @@ const testimonials = [
     }
 ]
 
+const customersays = [
+    {
+        name: 'Kayode Williams',
+        image: kayodeImage,
+        position: 'Customer',
+        title: 'The best food ordering app',
+        text: 'I love the convenience FoodKart offers. From ordering to delivery, the process is smooth, and the food always arrives fresh. It’s made enjoying restaurant-quality meals at home so much easier'
+    },
+    {
+        name: 'Godspower Osazee',
+        image: GodspowerImage,
+        position: 'CEO Fingerlicks (vendor)',
+        title: 'Increased Sales',
+        text: 'Partnering with FoodKart has been one of the best decisions for our restaurant. The ease of managing orders and the prompt delivery service have significantly improved our customer satisfaction & income.'
+    },
+    {
+        name: 'Kelechi Osinachi',
+        image: KelechiImage,
+        position: 'Customer',
+        title: 'Increased Sales',
+        text: 'FoodKart’s service is impeccable. The app is intuitive, and the delivery is impressively fast. It’s my top choice whenever I’m craving something delicious.'
+    },
+
+]
+
 const works = [
     {
         number: '01',
         title: 'Hungry ?',
-        imgae: [playstore, iphone ],
+        imgae: [playstore, iphone],
         text: 'Download the FoodKart'
     },
     {
         number: '02',
         title: 'Browse Menu',
-        imgae: meal,
+        imgae: hiw1,
         text: 'Choose from a divery selection diverse of cuisiness'
     },
     {
         number: '03',
         title: 'Place Order',
-        imgae: bicycle,
+        imgae: hiw3,
         text: 'Select your delivery & get it in minutes'
     },
     {
         number: '04',
         title: 'Enjoy your Meal',
-        imgae: enjoy,
+        imgae: hiw2,
         text: 'Eat from the confort of your home/office'
     },
 ]
 
+const Whyeat = [
+    {
+        image: whyeaticon1,
+        title: 'Wide selection of restaurants',
+        details: 'FoodKart offers an extensive selection of cuisines and dishes from top-rated local restaurants.'
+    },
+    {
+        image: whyeaticon2,
+        title: 'Easy ordering process',
+        details: 'FoodKart is designed with simplicity and ease in mind, making the ordering process quick and hassle-free. '
+    },
+    {
+        image: whyeaticon3,
+        title: 'Fast & Reliable delivery',
+        details: 'We prioritize speed and efficiency, so your food arrives hot and fresh, right when you need it. '
+    }
+]
 
- export {
+const ordercontainer = [
+    {
+        image: orderbrouse,
+        title: 'BROWSE MENU',
+        text: 'Choose from 0 diverse selcetion of culsines',
+        number: '02'
+    },
+    {
+        image: orderplace,
+        title: 'PLACE YOUR ORDER',
+        text: 'Make your selection to satisfy your craving',
+        number: '03'
+    },
+    {
+        image: orderget,
+        title: 'GET YOUR ORDER',
+        text: 'Get your order delivered to you in minutes',
+        number: '04'
+    },
+    {
+        image: orderbrouse,
+        title: 'ENJOY YOUR MEAL',
+        text: 'Eat from the confort of your home/office',
+        number: '05'
+    },
+]
+
+export {
     fag,
     testimonials,
-    works
+    works,
+    Whyeat,
+    ordercontainer,
+    customersays
 }

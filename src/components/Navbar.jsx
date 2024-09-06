@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { logo } from '../assets';
+import { IoMenuSharp } from "react-icons/io5";
+
 
 const Navbar = () => {
+    const navBar = useRef()
+
+    const handleNavBarToggle = ()=>{
+        
+    }
     return (
         <>
             <div className='flex w-full p-4 justify-between items-center'>
-                <div className='bg-white p-4 px-6 rounded-full'>
+                <div className='bg-white py-1.5 px-4 rounded-full'>
 
-                    <img src={logo} alt="" className='w-[100px]' />
+                    <img src={logo} alt="" className='w-[60px]' />
                 </div>
-                <div className='bg-white p-4 px-4 flex gap-3 rounded-full'>
+                <div>
+                    <IoMenuSharp  className='text-[33px] font-[400] cursor-pointer'/>
+                </div>
+                <div className='bg-white hidden p-4 px-4 lg:flex gap-3 rounded-full'>
                     <button className='font-[700]  text-[12px] text-black '>FAQS</button>
                     <button className='font-[700] text-[12px] text-black '>Contact Us</button>
                 </div>

@@ -13,3 +13,13 @@
 body{
   overflow-x: hidden;
 }
+
+.slick-slide img{
+  justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+  margin-left:-22rem !important;
+}
+/* .getapp-bg{
+  background: url('././assets/getbackg.svg');
+} */

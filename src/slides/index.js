@@ -7,10 +7,12 @@ import PlaceOrder from "./PlaceOrder";
 import Testimonial from "./Testimonial";
 import Everyone from "./Everyone";
 import GetFoodAppSlide from "./GetFoodAppSlide";
+import WhyEat from "./WhyEat";
 
 
 export {
     Home,
+    WhyEat,
     Everyone,
     Footer,
     GetFoodAppSlide,

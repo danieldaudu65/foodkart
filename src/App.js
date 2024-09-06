@@ -1,17 +1,18 @@
 import './App.css';
-import { Contact, Everyone, FAGs, Footer, GetFoodAppSlide, Home, PlaceOrder, Testimonial, Works } from './slides';
+import { Contact, Everyone, FAGs, Footer, GetFoodAppSlide, Home, PlaceOrder, Testimonial, WhyEat, Works } from './slides';
 
 function App() {
   return (
     <div className="">
 
       <Home />
+      <WhyEat />
       <Everyone />
       <Works />
       <PlaceOrder />
-      <GetFoodAppSlide />
       <Testimonial />
       <FAGs />
+      <GetFoodAppSlide />
       <Contact />
       <Footer />
     </div>

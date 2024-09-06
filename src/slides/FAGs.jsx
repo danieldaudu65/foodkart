@@ -1,40 +1,41 @@
 import React, { useState } from 'react';
 import { fag } from '../constant';
+import { FaChevronDown } from 'react-icons/fa'; // Importing an arrow icon
 
 const FAGs = () => {
     const [selectedQuestionIndex, setSelectedQuestionIndex] = useState(null);
 
     const handleQuestionClick = (index) => {
+        // Toggle between hiding and showing answers
         setSelectedQuestionIndex(index === selectedQuestionIndex ? null : index);
     };
 
     return (
-        <div className='bg-black min-h-screen flex justify-center items-center'>
-            <div className='w-[90%] bg-white flex'>
-                {/* Questions List */}
-                <div className='w-1/3 p-4 border-r border-gray-300'>
-                    <h1 className='text-lg font-bold mb-4'>FAQs</h1>
-                    {fag.map((item, index) => (
-                        <div key={index} className='mb-2'>
-                            <p
-                                className={`cursor-pointer ${index === selectedQuestionIndex ? 'text-blue-500' : 'text-black'}`}
-                                onClick={() => handleQuestionClick(index)}
-                            >
-                                {item.question}
-                            </p>
+        <div className='bg-white min-h-screen p-4 flex flex-col items-center'>
+            <h1 className='text-2xl font-bold mb-6'>Frequently Asked Questions (FAQs)</h1>
+            
+            <div className='w-[90%]'>
+                {fag.map((item, index) => (
+                    <div key={index} className='mb-4'>
+                        {/* Question */}
+                        <div 
+                            className='flex justify-between items-center cursor-pointer bg-gray-100 p-3 rounded-lg'
+                            onClick={() => handleQuestionClick(index)}
+                        >
+                            <p className='text-lg font-medium'>{item.question}</p>
+                            <FaChevronDown
+                                className={`transition-transform duration-300 ${index === selectedQuestionIndex ? 'rotate-180' : ''}`}
+                            />
                         </div>
-                    ))}
-                </div>
-
-                {/* Answer Display */}
-                <div className='w-2/3 p-4'>
-                    <h1 className='text-lg font-bold mb-4'>Answer</h1>
-                    {selectedQuestionIndex !== null ? (
-                        <p>{fag[selectedQuestionIndex].answer}</p>
-                    ) : (
-                        <p>Please select a question to see the answer.</p>
-                    )}
-                </div>
+                        
+                        {/* Answer (shown only when selected) */}
+                        {index === selectedQuestionIndex && (
+                            <div className='mt-2 p-3 bg-gray-50 rounded-lg border border-gray-200'>
+                                <p>{item.answer}</p>
+                            </div>
+                        )}
+                    </div>
+                ))}
             </div>
         </div>
     );
