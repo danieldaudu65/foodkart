@@ -16,7 +16,6 @@ const Home = () => {
                     <img src={homeplay} alt=""   className='w-[150px]'/>
                     <img src={homeapple} alt=""  className='w-[150px]'/>
                 </div>
-                <img src={foodCollection} alt="" className='absolute  bottom-[-1.75rem] w-[100%]' />
             </div>
         </div>
     );

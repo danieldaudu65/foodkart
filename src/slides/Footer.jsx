@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
-import { fb, footerapple, footerfood1, footerfood2, footerfood3, footerfood4, footerplay, instagram, iphone, linkedin, logo, playstore, twitter } from '../assets';
+import { appleblack, fb, footerapple, footerfood1, footerfood2, footerfood3, footerfood4, footerplay, instagram, iphone, linkedin, logo, playstore, twitter } from '../assets';
 
 const Footer = () => {
     return (
@@ -32,7 +32,7 @@ const Footer = () => {
                         <img src={playstore} alt="" className='w-[14px]' />
                     </div >
                     <div className='p-1 rounded-full bg-white mr-2'>
-                        <img src={iphone} alt=""  className='w-[14px]'/>
+                        <img src={appleblack} alt=""  className='w-[14px]'/>
                     </div>
                     BECOME A RIDER
                 </div>
@@ -41,7 +41,7 @@ const Footer = () => {
                         <img src={playstore} alt=""  className='w-[14px]'/>
                     </div>
                     <div className='p-1 rounded-full bg-white mr-2'>
-                        <img src={iphone} alt=""  className='w-[14px]'/>
+                        <img src={appleblack} alt=""  className='w-[14px]'/>
                     </div>
                     BECOME A VENDOR
                 </div>

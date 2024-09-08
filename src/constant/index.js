@@ -103,7 +103,7 @@ const customersays = [
         name: 'Kelechi Osinachi',
         image: KelechiImage,
         position: 'Customer',
-        title: 'Increased Sales',
+        title: 'Speedy Delivery',
         text: 'FoodKart’s service is impeccable. The app is intuitive, and the delivery is impressively fast. It’s my top choice whenever I’m craving something delicious.'
     },
 

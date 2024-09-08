@@ -7,7 +7,6 @@ function App() {
 
       <Home />
       <WhyEat />
-      <Everyone />
       <Works />
       <PlaceOrder />
       <Testimonial />
@@ -15,6 +14,9 @@ function App() {
       <GetFoodAppSlide />
       <Contact />
       <Footer />
+
+
+      {/* <PlaceOrder /> */}
     </div>
   );
 }

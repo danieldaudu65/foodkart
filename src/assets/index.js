@@ -17,10 +17,10 @@ import homebg2 from './homebg2.svg'
 import minifood1 from './minifood1.svg'
 import minifood2 from './minifood2.svg'
 import everybg2 from './everybg2.svg'
-import hiw1 from './hiw1.svg' 
-import hiw2 from './hiw2.svg' 
-import hiw3 from './hiw3.svg' 
-import getfood from './getfood.svg' 
+import hiw1 from './hiw1.svg'
+import hiw2 from './hiw2.svg'
+import hiw3 from './hiw3.svg'
+import getfood from './getfood.svg'
 import applered from './applered.svg'
 import appdownload from './appdownload.svg'
 import playdownload from './playdownload.svg'
@@ -32,7 +32,7 @@ import iphone142 from './iphone142.svg'
 import yellostar from './yellostar.svg'
 import house from './house.svg'
 import greenstar from './greenstar.svg'
-import bic from './bic.svg'
+// import bic from './bic.svg'
 import kayodeImage from './kayodeImage.svg'
 import GodspowerImage from './GodspowerImage.svg'
 import KelechiImage from './KelechiImage.svg'
@@ -57,9 +57,25 @@ import footerfood2 from './footerfood2.svg'
 import footerfood3 from './footerfood3.svg'
 import footerfood4 from './footerfood4.svg'
 import getbackg from './getbackbg.svg'
+import bicycle2 from './bicycle2.svg'
+import bicycle from './bicycle.svg'
+import landscape from './landscapebackg.svg'
+import appleblack from './appleblack.svg'
+import bgframe from './bg-frame.svg'
+
+
+
+
 
 export {
+    // bic,
+    appleblack
+    ,
+    bgframe,
+    landscape,
+    bicycle,
     getbackg,
+    bicycle2,
     footerapple,
     footerplay,
     footerfood1,
@@ -84,7 +100,6 @@ export {
     GodspowerImage,
     kayodeImage,
     greenstar,
-    bic,
     yellostar,
     house,
     iphone141,
@@ -109,9 +124,7 @@ export {
     map,
     foodCollection,
     logo,
-
     meal,
-
     workbg,
     iphone,
     playstore,
