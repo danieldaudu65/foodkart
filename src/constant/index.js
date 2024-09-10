@@ -2,11 +2,11 @@ import { bicycle, enjoy, GodspowerImage, hiw1, hiw2, hiw3, iphone, kayodeImage, 
 
 const fag = [
     {
-        question: ' What is FoodKart ?',
+        question: ' What Is FoodKart ?',
         answer: 'FoodKart is a technology-driven platform that connects consumers with a wide variety of local and international restaurants. It offers seamless ordering and fast delivery services, making it easy to enjoy your favorite meals from the comfort of your home.'
     },
     {
-        question: 'How do u place an order on FoodKart ?',
+        question: 'How do you place an order on FoodKart ?',
         answer: 'To place an order, simply download the FoodKart app, sign up or log in, browse through the restaurant listings, select your preferred meals, add them to your cart, and proceed to checkout. Once your order is confirmed, it will be prepared and delivered to your location.'
     },
     {
@@ -14,11 +14,11 @@ const fag = [
         answer: 'Yes, a delivery fee is applied to each order, which varies based on your location and the restaurant you order from. The delivery fee will be displayed at checkout before you confirm your order.'
     },
     {
-        question: 'Can i track my order  ?',
+        question: 'Can I track my order  ?',
         answer: 'Absolutely! Once your order is placed, you can track its progress in real-time through the FoodKart app. You"ll receive updates on the preparation and delivery status, so you know exactly when to expect your meal.'
     },
     {
-        question: 'What is Service fee ?',
+        question: 'What Is Service fee ?',
         answer: 'FoodKart accepts a variety of payment methods, including credit and debit cards, mobile payments, and some locations also offer cash on delivery. You can select your preferred payment option at checkout.'
     },
     {
@@ -26,7 +26,7 @@ const fag = [
         answer: "No, However the delivery agent carrying your order would be in constant communication with you, knowing when and where best to deliver the order to you in case of extenuating circumstances."
     },
     {
-        question: 'What if i need to charge or cancel my order ?',
+        question: 'What if I need to charge or cancel my order ?',
         answer: "You can change or cancel your order as long as the restaurant hasn't started preparing it. To do this, go to your order history in the app and select the option to modify or cancel the order. If the restaurant has already started preparing your order, cancellations or changes may not be possible."
     }
 ]

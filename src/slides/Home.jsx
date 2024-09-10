@@ -4,9 +4,9 @@ import { foodCollection, homeapple, homefood, homeplay } from '../assets';
 
 const Home = () => {
     return (
-        <div className='bg-[#FFB839]  h-'>
+        <div className='bg-white  '>
             <Navbar />
-            <div className='relative h-[50vh] lg:h-[90vh]'>
+            <div className='relative h-[60vh] lg:h-[90vh]'>
                 <div className='flex justify-center items-center flex-col'>
                     <h2 className='font-[500]  text-[22px]'>Explore Our</h2>
                     <h1 className='font-[800] text-[30px]'>Culinary Delights</h1>

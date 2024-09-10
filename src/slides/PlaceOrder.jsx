@@ -5,7 +5,7 @@ import { ordercontainer } from '../constant';
 const PlaceOrder = () => {
     return (
         <div className='bg-[#F6F6F6] lg:w-full  p-6  lg:p-24'>
-            <h1 className='font-[700] lg:text-[30px] gap-2 my-8 text-[20px] flex items-center lg:justify-start justify-center'>How to <span className='text-red-500' >  Order </span>     with us?</h1>
+            <h1 className='font-[700] lg:text-[30px] gap-2 my-8 text-[22px] flex items-center lg:justify-start justify-center'>How to <span className='text-red-500' >  Order </span>     with us?</h1>
             <div className='lg:flex  w-full'>
                 <div className='flex justify-between bg-white h-full flex-col mb-2 lg:mb-0 relative lg:w-1/2 lg:mr-4 rounded-lg text-white           '>
                     <div className="mb-10 w-full ">
@@ -37,9 +37,9 @@ const PlaceOrder = () => {
                             >
                                 <img src={item.image} alt="" className='w-full mb-2' />
                                 <div className='p-2 px-4 '>
-                                    <p className='font-[700] mt-3'>{item.title}</p>
-                                    <p className='text-[12px] lg:text-[16px]   w-[70%]'>{item.text}</p>
-                                    <p className='absolute bg-green-700 p-2 text-white right-2 text-[14px] rounded-full px-3 bottom-2'>{item.number}</p>
+                                    <p className='font-[700] text-[13px] my-2 mt-3'>{item.title}</p>
+                                    <p className='text-[11px] lg:text-[16px]   w-[70%]'>{item.text}</p>
+                                    <p className='absolute bg-green-700 p-2 text-white right-1 lg:right-2 text-[14px] rounded-full px-3 bottom-1 lg:bottom-2'>{item.number}</p>
                                 </div>
                             </div>
                         ))
@@ -83,15 +83,14 @@ const PlaceOrder = () => {
 
 
                 <div className='relative mb-2 '>
-                    <div className='justify-center lg:absolute right-0  -top-3 my-8 self-end flex items-center rounded-full p-1 px-2 bg-white w-fit '>
+                    <div className='justify-center hidden lg:absolute right-0  -top-3 my-8 self-end lg:flex items-center rounded-full p-1 px-2 bg-white w-fit '>
                         <img src={logo} alt="" className='w-[80px] ' />
                     </div>
                     <img src={landscape} alt="" className='' />
                     <img src={bicycle} alt="" className='absolute bottom-0 left-[25%]' />
                 </div>
 
-
-                <div className='flex justify-between my-4 lg:hidden items-center w-full'>
+              <div className='flex text-[10px] mt-8 justify-between my-4 lg:hidden items-center w-full'>
                     <div className='flex text-white items-center rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
                         <div className='p-1 rounded-full bg-white mr-2'>
                             <img src={playstore} alt="" className='w-[14px]' />
@@ -101,7 +100,7 @@ const PlaceOrder = () => {
                         </div>
                         BECOME A RIDER
                     </div>
-                    <div className='flex text-white items-center rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
+                    <div className='flex t- text-white items-center rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
                         <div className='p-1 rounded-full bg-white mr-2'>
                             <img src={playstore} alt="" className='w-[14px]' />
                         </div>

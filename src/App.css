@@ -23,3 +23,22 @@ body{
 /* .getapp-bg{
   background: url('././assets/getbackg.svg');
 } */
+
+
+.nav{
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+  height: fit-content;
+  transition: .5s ease;
+  transform: translateX(-100%);
+
+}
+
+.nav-responsiveness{
+  transform: translate(0);
+}

@@ -11,18 +11,18 @@ const FAGs = () => {
     };
 
     return (
-        <div className='bg-white min-h-screen lg:h-fit lg:min-h-0 lg:py-20 lg:w-[70%] lg:m-auto p-4 flex flex-col items-center'>
-            <h1 className='text-2xl lg:text-[22px] font-bold mb-6'>Frequently Asked Questions (FAQs)</h1>
+        <div className='bg-white h-fit lg:h-fit lg:min-h-0 lg:py-20 lg:w-[70%] lg:m-auto p-4 flex flex-col items-center'>
+            <h1 className='text-[18px] mt-4 lg:text-[22px] font-bold mb-6'>Frequently Asked Questions (FAQs)</h1>
             
             <div className='w-[90%]'>
                 {fag.map((item, index) => (
                     <div key={index} className='mb-4'>
                         {/* Question */}
                         <div 
-                            className='flex justify-between items-center cursor-pointer bg-gray-100 p-8 rounded-lg'
+                            className='flex justify-between items-center cursor-pointer bg-gray-100 p-4 lg:p-8 rounded-lg'
                             onClick={() => handleQuestionClick(index)}
                         >
-                            <p className='text-lg font-medium lg:text-[22px]'>{item.question}</p>
+                            <p className=' font-medium text-[16px] lg:text-[22px]'>{item.question}</p>
                             <FaChevronDown
                                 className={`transition-transform duration-300 ${index === selectedQuestionIndex ? 'rotate-180' : ''}`}
                             />
@@ -31,7 +31,7 @@ const FAGs = () => {
                         {/* Answer (shown only when selected) */}
                         {index === selectedQuestionIndex && (
                             <div className='mt-2 p-3 bg-[#FCE4B2] rounded-lg border border-gray-200'>
-                                <p className='lg:text-[20px] lg:px-4 lg:py-2'>{item.answer}</p>
+                                <p className='lg:text-[20px] text-[14px] lg:px-4 lg:py-2'>{item.answer}</p>
                             </div>
                         )}
                     </div>
