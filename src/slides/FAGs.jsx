@@ -6,12 +6,11 @@ const FAGs = () => {
     const [selectedQuestionIndex, setSelectedQuestionIndex] = useState(null);
 
     const handleQuestionClick = (index) => {
-        // Toggle between hiding and showing answers
         setSelectedQuestionIndex(index === selectedQuestionIndex ? null : index);
     };
 
     return (
-        <div className='bg-white h-fit lg:h-fit lg:min-h-0 lg:py-20 lg:w-[70%] lg:m-auto p-4 flex flex-col items-center'>
+        <div id='faqs' className='bg-white h-fit lg:h-fit lg:min-h-0 lg:py-20 lg:w-[70%] lg:m-auto p-4 flex flex-col items-center'>
             <h1 className='text-[18px] mt-4 lg:text-[22px] font-bold mb-6'>Frequently Asked Questions (FAQs)</h1>
             
             <div className='w-[90%]'>
@@ -22,7 +21,7 @@ const FAGs = () => {
                             className='flex justify-between items-center cursor-pointer bg-gray-100 p-4 lg:p-8 rounded-lg'
                             onClick={() => handleQuestionClick(index)}
                         >
-                            <p className=' font-medium text-[16px] lg:text-[22px]'>{item.question}</p>
+                            <p className='font-medium text-[16px] lg:text-[22px]'>{item.question}</p>
                             <FaChevronDown
                                 className={`transition-transform duration-300 ${index === selectedQuestionIndex ? 'rotate-180' : ''}`}
                             />

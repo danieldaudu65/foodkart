@@ -59,9 +59,10 @@ import footerfood4 from './footerfood4.svg'
 import getbackg from './getbackbg.svg'
 import bicycle2 from './bicycle2.svg'
 import bicycle from './bicycle.svg'
-import landscape from './landscapebackg.svg'
+import landscape from './landscape.svg'
 import appleblack from './appleblack.svg'
 import bgframe from './bg-frame.svg'
+import homebg from './homebg.svg'
 
 
 
@@ -71,6 +72,7 @@ export {
     // bic,
     appleblack
     ,
+    homebg,
     bgframe,
     landscape,
     bicycle,

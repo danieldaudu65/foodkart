@@ -4,7 +4,7 @@ import { map } from '../assets';
 
 const Contact = () => {
     return (
-        <div className='flex  bg-[#EDEDED] p-8 lg:p-20 justify-center items-center flex-col'>
+        <div id='contact' className='flex  bg-[#EDEDED] p-8 lg:p-20 justify-center items-center flex-col'>
             <h1 className='font-[700] text-[20px] mb-3 lg:text-[28px]'>Contact Us</h1>
             <div className='flex w-full gap-6 flex-col lg:flex-row justify-start   '>
                 <div className='w-[95%] lg:w-1/2 m-auto'>

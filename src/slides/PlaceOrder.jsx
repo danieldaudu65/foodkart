@@ -4,10 +4,10 @@ import { ordercontainer } from '../constant';
 
 const PlaceOrder = () => {
     return (
-        <div className='bg-[#F6F6F6] lg:w-full  p-6  lg:p-24'>
+        <div className='bg-white lg:w-full  p-6  lg:p-24'>
             <h1 className='font-[700] lg:text-[30px] gap-2 my-8 text-[22px] flex items-center lg:justify-start justify-center'>How to <span className='text-red-500' >  Order </span>     with us?</h1>
             <div className='lg:flex  w-full'>
-                <div className='flex justify-between bg-white h-full flex-col mb-2 lg:mb-0 relative lg:w-1/2 lg:mr-4 rounded-lg text-white           '>
+                <div className='flex justify-between bg-white h-full flex-col shadow-xl mb-2 lg:mb-0 relative lg:w-1/2 lg:mr-4 rounded-lg text-white           '>
                     <div className="mb-10 w-full ">
                         <img src={orderbig} alt="" className='w-full' />
                     </div>

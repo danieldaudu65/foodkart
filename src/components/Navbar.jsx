@@ -1,37 +1,44 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { logo } from '../assets';
-import { IoMenuSharp } from "react-icons/io5";
-import { FaTimeline } from 'react-icons/fa6';
-import { FaTimes } from 'react-icons/fa';
-
+import { FaArrowUp, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
-    const navBar = useRef()
+    const handleLinkClick = (section) => {
+        console.log(`${section} link clicked`);
+    };
 
-    const handleNavBarToggle = () => {
-        navBar.current.classList.toggle('nav-responsiveness')
-    }
     return (
         <>
-            <div className='flex w-full p-4 justify-between items-center bg-[#FFB839]'>
+            <div className='flex w-full p-4 lg:px-12 justify-between items-center bg-[#FFB839]'>
                 <div className='bg-white py-1.5 px-4 rounded-full'>
-                    <img src={logo} alt="" className='w-[60px]' />
+                    <img src={logo} alt="Logo" className='w-[60px] lg:w-[120px]' />
                 </div>
-                {/* <div>
-                     <IoMenuSharp onClick={handleNavBarToggle} className='text-[33px] font-[400] lg:hidden cursor-pointer' />
-                </div> */}
-                <div className='bg-white   py-1.5 px-4 items-center lg:flex gap-10 rounded-full'>
-                    <button className='font-[700]  text-[12px] text-black '>FAQS</button>
-                    <button className='font-[700] ml-4 text-[12px] text-black '>Contact Us</button>
+                <div className='bg-white lg:py-3 py-1.5 px-4 items-center lg:flex gap-10 rounded-full'>
+                    <Link
+                        to="faqs"
+                        smooth={true}
+                        duration={1000}
+                        className='font-[700] text-[12px] lg:text-[16px] text-black cursor-pointer'
+                        onClick={() => handleLinkClick('FAQs')}
+                    >
+                        FAQS
+                    </Link>
+                    <Link
+                        to="contact"
+                        smooth={true}
+                        duration={1500}
+                        className='font-[700] ml-4 text-[12px] lg:text-[18px] text-black cursor-pointer'
+                        onClick={() => handleLinkClick('Contact Us')}
+                    >
+                        Contact Us
+                    </Link>
                 </div>
-                <div ref={navBar} className='nav relative' >
 
-                    <FaTimes className='absolute top-2 text-[33px] right-2' onClick={handleNavBarToggle} />
-                    hello
-                </div>
+                
             </div>
         </>
     );
-}
+};
 
 export default Navbar;
