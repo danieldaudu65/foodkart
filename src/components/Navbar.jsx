@@ -14,12 +14,12 @@ const Navbar = () => {
                 <div className='bg-white py-1.5 px-4 rounded-full'>
                     <img src={logo} alt="Logo" className='w-[60px] lg:w-[120px]' />
                 </div>
-                <div className='bg-white lg:py-3 py-1.5 px-4 items-center lg:flex gap-10 rounded-full'>
+                <div className='bg-white lg:py-3 py-1.5 px-4 flex  items-center lg:flex  rounded-full'>
                     <Link
                         to="faqs"
                         smooth={true}
                         duration={1000}
-                        className='font-[700] text-[12px] lg:text-[16px] text-black cursor-pointer'
+                        className='font-[700] text-[10px] lg:text-[16px] text-black cursor-pointer'
                         onClick={() => handleLinkClick('FAQs')}
                     >
                         FAQS
@@ -28,7 +28,7 @@ const Navbar = () => {
                         to="contact"
                         smooth={true}
                         duration={1500}
-                        className='font-[700] ml-4 text-[12px] lg:text-[18px] text-black cursor-pointer'
+                        className='font-[700] ml-4 text-[10px] lg:text-[18px] text-black cursor-pointer'
                         onClick={() => handleLinkClick('Contact Us')}
                     >
                         Contact Us
