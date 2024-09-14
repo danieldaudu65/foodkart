@@ -32,14 +32,14 @@ const PlaceOrder = () => {
                     {
                         ordercontainer.map((item, index) => (
                             <div
-                                className='relative   rounded-lg bg-white gap-4 shadow-xl'
+                                className='relative    rounded-lg bg-white gap-4 shadow-xl'
                                 key={index}
                             >
                                 <img src={item.image} alt="" className='w-full mb-2' />
-                                <div className='p-2 px-4 '>
-                                    <p className='font-[700] text-[13px] my-2 mt-3'>{item.title}</p>
-                                    <p className='text-[11px] lg:text-[16px]   w-[70%]'>{item.text}</p>
-                                    <p className='absolute bg-green-700 p-2 text-white right-1 lg:right-2 text-[14px] rounded-full px-3 bottom-1 lg:bottom-2'>{item.number}</p>
+                                <div className='px-3 p-1 sm:p-2 sm:px-4 '>
+                                    <p className='font-[700] text-[9px] sm:text-[13px]  mt-3'>{item.title}</p>
+                                    <p className='text-[9px] sm:text-[16px]  mb-2  w-[80%]'>{item.text}</p>
+                                    <p className='absolute bg-green-700 p-1 md:p-2 text-white right-1 lg:right-2 text-[10px] sm:text-[14px] rounded-full px-1.5 lg:px-3 bottom-1 lg:bottom-2'>{item.number}</p>
                                 </div>
                             </div>
                         ))
@@ -59,7 +59,7 @@ const PlaceOrder = () => {
                         <p className='font-[700] lg:text-[42px] mb-4 text-[]'>We provide <span className='text-red-500'>Fast</span> &  <span className='text-red-500'>Reliable</span> <br className='lg:block hidden' /> Delivery <br className='lg:hidden' /> of healthy food for <br className='lg:block hidden' /> your family.</p>
                         <p className='mb-10 lg:text-[18px] text-[15px] '>Looking for a flexible and rewarding job? <br className='lg:hidden' />Become  a <br className='hidden lg:block' /> Delivery Agent OR Vendor  with us.</p>
                     </div>
-                    <div className='hidden lg:flex justify-start gap-4   items-center w-full'>
+                    <div className='hidden cursor-pointer lg:flex justify-start gap-4   items-center w-full'>
                         <div className='flex text-white items-center rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
                             <div className='p-1 rounded-full bg-white mr-2'>
                                 <img src={playstore} alt="" className='w-[14px]' />
@@ -69,7 +69,7 @@ const PlaceOrder = () => {
                             </div>
                             BECOME A RIDER
                         </div>
-                        <div className='flex text-white items-center rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
+                        <div className='flex cursor-pointer text-white items-center rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
                             <div className='p-1 rounded-full bg-white mr-2'>
                                 <img src={playstore} alt="" className='w-[14px]' />
                             </div>
@@ -86,26 +86,29 @@ const PlaceOrder = () => {
                     <div className='justify-center hidden lg:absolute right-0  -top-3 my-8 self-end lg:flex items-center rounded-full p-1 px-2 bg-white w-fit '>
                         <img src={logo} alt="" className='w-[80px] ' />
                     </div>
-                    <img src={landscape} alt="" className='' />
-                    <img src={bicycle} alt="" className='absolute bottom-0 left-[25%]' />
+                    <div className='relative'>
+
+                        <img src={landscape} alt="" className=' w-full' />
+                        <img src={bicycle} alt="" className='w-[100px] sm:w-[160px] md:w-[220px] absolute bottom-6 xs:bottom-8 sm:bottom-15 left-[20%]' />
+                    </div>
                 </div>
 
-              <div className='flex text-[10px] mt-8 justify-between my-4 lg:hidden items-center w-full'>
-                    <div className='flex text-white items-center rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
+                <div className='flex text-[8px] sm:text-[10px] mt-8 justify-between my-4 lg:hidden sm:justify-start md:justify-start items-center w-full'>
+                    <div className='cursor-pointer flex text-white items-center scale-90 rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
                         <div className='p-1 rounded-full bg-white mr-2'>
-                            <img src={playstore} alt="" className='w-[14px]' />
+                            <img src={playstore} alt="" className='w-[10px]' />
                         </div >
                         <div className='p-1 rounded-full bg-white mr-2'>
-                            <img src={appleblack} alt="" className='w-[14px]' />
+                            <img src={appleblack} alt="" className='w-[10px]' />
                         </div>
                         BECOME A RIDER
                     </div>
-                    <div className='flex t- text-white items-center rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
+                    <div className='flex cursor-pointer text-white scale-90 items-center rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
                         <div className='p-1 rounded-full bg-white mr-2'>
-                            <img src={playstore} alt="" className='w-[14px]' />
+                            <img src={playstore} alt="" className='w-[10px]' />
                         </div>
                         <div className='p-1 rounded-full bg-white mr-2'>
-                            <img src={appleblack} alt="" className='w-[14px]' />
+                            <img src={appleblack} alt="" className='w-[10px]' />
                         </div>
                         BECOME A VENDOR
                     </div>

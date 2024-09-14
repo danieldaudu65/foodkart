@@ -22,7 +22,7 @@ const TestimonialsSlider = () => {
                 <p className='lg:text-[18px]'>{item.text}</p>
                 <hr className='my-5' />
                 <div className='flex gap-3 items-center'>
-                  <img src={item.image} className='lg:w-[80px] w-[50px]' alt="" />
+                  <img src={item.image} className='lg:w-[80px] object-cover w-[50px]' alt="" />
                   <div>
                     <p className='font-[700]'>{item.name}</p>
                     <p>{item.position}</p>

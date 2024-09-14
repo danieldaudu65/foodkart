@@ -1,4 +1,4 @@
-import { bicycle, enjoy, GodspowerImage, hiw1, hiw2, hiw3, iphone, kayodeImage, KelechiImage, meal, orderbrouse, orderget, orderplace, playstore, whyeaticon1, whyeaticon2, whyeaticon3 } from "../assets"
+import { bicycle, enjoy, GodspowerImage, hiw1, hiw2, hiw3, iphone, kayodeImage, KelechiImage, meal, orderbrouse, orderenjoy, orderget, orderplace, playstore, whyeaticon1, whyeaticon2, whyeaticon3 } from "../assets"
 
 const fag = [
     {
@@ -158,25 +158,25 @@ const ordercontainer = [
     {
         image: orderbrouse,
         title: 'BROWSE MENU',
-        text: 'Choose from 0 diverse selcetion of culsines',
+        text: 'Choose from 0 diverse selcetion of culsines.',
         number: '02'
     },
     {
         image: orderplace,
         title: 'PLACE YOUR ORDER',
-        text: 'Make your selection to satisfy your craving',
+        text: 'Make your selection to satisfy your craving.',
         number: '03'
     },
     {
         image: orderget,
         title: 'GET YOUR ORDER',
-        text: 'Get your order delivered to you in minutes',
+        text: 'Get your order delivered to you in minutes.',
         number: '04'
     },
     {
-        image: orderbrouse,
+        image: orderenjoy,
         title: 'ENJOY YOUR MEAL',
-        text: 'Eat from the confort of your home/office',
+        text: 'Eat from the comfort of your home/office.',
         number: '05'
     },
 ]
