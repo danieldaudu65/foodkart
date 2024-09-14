@@ -9,7 +9,7 @@ const TestimonialsSlider = () => {
   // console.log(customersays)
   return (
     <div className='bg-black lg:p-24 p-8 w-full'>
-      <h1 className='flex justify-center font-[700] w-full mb-6 text-white text-[22px] lg:text-[32px] '>What Our Customers Say</h1>
+      <h1 className='flex justify-center font-[700] w-full mb-6 text-white text-[20px] lg:text-[32px] '>What Our Customers Say</h1>
 
       <div className='mt-3 lg:flex md:flex-col lg:flex-row w-full gap-6 lg:items-center lg:justify-center'>
 

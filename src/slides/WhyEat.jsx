@@ -4,7 +4,7 @@ import { Whyeat } from '../constant';
 const WhyEat = () => {
   return (
     <div className='bg-[#FFF9F2] flex lg:p-12 flex-col items-center w-full p-6 justify-center '>
-      <h1 className='font-[700] lg:mb-8  lg:text-[28px] text-[22px]'>Why <span className='text-red-500'>Eat</span> with us?</h1>
+      <h1 className='font-[700] lg:mb-8  lg:text-[28px] text-[20px]'>Why <span className='text-red-500'>Eat</span> with us?</h1>
 
       <div className='lg:grid grid-cols-3 lg:ml-10'>
         {

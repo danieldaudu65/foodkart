@@ -49,14 +49,14 @@ const Footer = () => {
                 </div>
             </div>
             <div className=''>
-                <div className='flex'>
+                <div className='flex -ml-1'>
                     <img src={footerapple} className='cursor-pointer w-[30%] lg:w-[45%] mb-4' alt="" />
                     <img src={footerplay} className='cursor-pointer w-[30%] lg:w-[45%] mb-4' alt="" />
                 </div>
                 <div className='grid grid-cols-2   lg:mr-10 items-starts w-1/2  lg:gap-0  gap-1 '>
-                    <img src={footerfood1} alt="" className=' lg:w-[300px]' />
                     <img src={footerfood2} alt="" className=' lg:w-[300px]' />
                     <img src={footerfood1} alt="" className=' lg:w-[300px]' />
+                    <img src={footerfood3} alt="" className=' lg:w-[300px]' />
                     <img src={footerfood4} alt="" className=' lg:w-[300px]' />
                 </div>
             </div>

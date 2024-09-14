@@ -11,7 +11,7 @@ const FAGs = () => {
 
     return (
         <div id='faqs' className='bg-white h-fit lg:h-fit lg:min-h-0 lg:py-20 lg:w-[70%] lg:m-auto p-4 flex flex-col items-center'>
-            <h1 className='text-[18px] mt-4 lg:text-[22px] font-bold mb-6'>Frequently Asked Questions (FAQs)</h1>
+            <h1 className='text-[16px] mt-4 lg:text-[22px] font-bold mb-6'>Frequently Asked Questions (FAQs)</h1>
             
             <div className='w-[90%]'>
                 {fag.map((item, index) => (

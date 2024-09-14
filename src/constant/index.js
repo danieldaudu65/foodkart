@@ -158,7 +158,7 @@ const ordercontainer = [
     {
         image: orderbrouse,
         title: 'BROWSE MENU',
-        text: 'Choose from 0 diverse selcetion of culsines.',
+        text: 'Choose from a diverse selection of cuisines.',
         number: '02'
     },
     {

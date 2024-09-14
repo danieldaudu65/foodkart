@@ -5,7 +5,7 @@ import { ordercontainer } from '../constant';
 const PlaceOrder = () => {
     return (
         <div className='bg-white lg:w-full  p-6  lg:p-24'>
-            <h1 className='font-[700] lg:text-[30px] gap-2 my-8 text-[22px] flex items-center lg:justify-start justify-center'>How to <span className='text-red-500' >  Order </span>     with us?</h1>
+            <h1 className='font-[700] lg:text-[30px] gap-2 my-8 text-[20px] flex items-center lg:justify-start justify-center'>How to <span className='text-red-500' >  Order </span>     with us?</h1>
             <div className='lg:flex  w-full'>
                 <div className='flex justify-between bg-white h-full flex-col shadow-xl mb-2 lg:mb-0 relative lg:w-1/2 lg:mr-4 rounded-lg text-white           '>
                     <div className="mb-10 w-full ">
@@ -89,12 +89,12 @@ const PlaceOrder = () => {
                     <div className='relative'>
 
                         <img src={landscape} alt="" className=' w-full' />
-                        <img src={bicycle} alt="" className='w-[100px] sm:w-[160px] md:w-[220px] absolute bottom-6 xs:bottom-8 sm:bottom-15 left-[20%]' />
+                        <img src={bicycle} alt="" className='w-[120px] sm:w-[160px] md:w-[220px] absolute bottom-6 xs:bottom-8 sm:bottom-15 left-[20%]' />
                     </div>
                 </div>
 
-                <div className='flex text-[8px] sm:text-[10px] mt-8 justify-between my-4 lg:hidden sm:justify-start md:justify-start items-center w-full'>
-                    <div className='cursor-pointer flex text-white items-center scale-90 rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
+                <div className='flex text-[10px] sm:text-[10px] mt-8 justify-between my-4 lg:hidden sm:justify-start md:justify-start items-center w-full'>
+                    <div className='cursor-pointer flex text-white items-center scale-90  rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
                         <div className='p-1 rounded-full bg-white mr-2'>
                             <img src={playstore} alt="" className='w-[10px]' />
                         </div >
@@ -103,7 +103,7 @@ const PlaceOrder = () => {
                         </div>
                         BECOME A RIDER
                     </div>
-                    <div className='flex cursor-pointer text-white scale-90 items-center rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
+                    <div className='flex cursor-pointer text-white scale-90  items-center rounded-lg bg-[#0C513F] mb-3 p-2 w-fit '>
                         <div className='p-1 rounded-full bg-white mr-2'>
                             <img src={playstore} alt="" className='w-[10px]' />
                         </div>
