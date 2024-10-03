@@ -8,6 +8,8 @@ const Navbar = () => {
         console.log(`${section} link clicked`);
     };
 
+
+    
     return (
         <>
             <div className='flex w-full p-4 lg:px-12 justify-between items-center bg-[#FFB839]'>
@@ -24,6 +26,7 @@ const Navbar = () => {
                     >
                         FAQS
                     </Link>
+
                     <Link
                         to="contact"
                         smooth={true}
