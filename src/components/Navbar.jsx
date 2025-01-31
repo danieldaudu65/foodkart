@@ -2,19 +2,20 @@ import React from 'react';
 import { logo } from '../assets';
 import { FaArrowUp, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+
+    const navigate = useNavigate();
     const handleLinkClick = (section) => {
         console.log(`${section} link clicked`);
     };
-
-
     
     return (
         <>
             <div className='flex w-full p-4 lg:px-12 justify-between items-center bg-[#FFB839]'>
                 <div className='bg-white py-1.5 px-4 rounded-full'>
-                    <img src={logo} alt="Logo" className='w-[60px] lg:w-[120px]' />
+                    <img src={logo} alt="Logo" className='w-[60px] lg:w-[120px]' onClick={() => navigate('/')} />
                 </div>
                 <div className='bg-white lg:py-3 py-1.5 px-4 flex  items-center lg:flex  rounded-full'>
                     <Link

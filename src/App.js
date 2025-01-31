@@ -1,10 +1,20 @@
-import './App.css';
-import { Contact, Everyone, FAGs, Footer, GetFoodAppSlide, Home, PlaceOrder, Testimonial, WhyEat, Works } from './slides';
+import "./App.css";
+import {
+  Contact,
+  Everyone,
+  FAGs,
+  Footer,
+  GetFoodAppSlide,
+  Home,
+  PlaceOrder,
+  Testimonial,
+  WhyEat,
+  Works,
+} from "./slides";
 
 function App() {
   return (
     <div className="">
-
       <Home />
       <WhyEat />
       <Works />
@@ -14,7 +24,6 @@ function App() {
       <GetFoodAppSlide />
       <Contact />
       <Footer />
-
 
       {/* <PlaceOrder /> */}
     </div>
