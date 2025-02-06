@@ -12,7 +12,7 @@ const Navbar = () => {
     };
     
     return (
-        <>
+    <>
             <div className='flex w-full p-4 lg:px-12 justify-between items-center bg-[#FFB839]'>
                 <div className='bg-white py-1.5 px-4 rounded-full'>
                     <img src={logo} alt="Logo" className='w-[60px] lg:w-[120px]' onClick={() => navigate('/')} />

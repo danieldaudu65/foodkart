@@ -19,7 +19,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="privacy-policy" element={<Policy />} />
         <Route path="delete-account" element={<DeleteAccount />} />
-        <Route path="delete-account" element={<DeleteAccount />} />
+        {/* <Route path="delete-account" element={<DeleteAccount />} /> */}
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </BrowserRouter>
