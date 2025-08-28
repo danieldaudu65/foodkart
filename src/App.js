@@ -10,12 +10,14 @@ import {
   Testimonial,
   WhyEat,
   Works,
+  WhoWeAre,
 } from "./slides";
 
 function App() {
   return (
     <div className="">
       <Home />
+      <WhoWeAre />
       <WhyEat />
       <Works />
       <PlaceOrder />

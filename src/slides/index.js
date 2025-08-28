@@ -8,17 +8,18 @@ import Testimonial from "./Testimonial";
 import Everyone from "./Everyone";
 import GetFoodAppSlide from "./GetFoodAppSlide";
 import WhyEat from "./WhyEat";
-
+import WhoWeAre from "./WhoWeAre";
 
 export {
-    Home,
-    WhyEat,
-    Everyone,
-    Footer,
-    GetFoodAppSlide,
-    Testimonial,
-    PlaceOrder,
-    Contact,
-    FAGs,
-    Works
-}
+  Home,
+  WhoWeAre,
+  WhyEat,
+  Everyone,
+  Footer,
+  GetFoodAppSlide,
+  Testimonial,
+  PlaceOrder,
+  Contact,
+  FAGs,
+  Works,
+};
