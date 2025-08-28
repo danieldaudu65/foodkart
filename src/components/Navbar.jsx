@@ -52,7 +52,7 @@ const Navbar = () => {
         </RouterLink>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex gap-8 w-3/5 justify-end">
+        <div className="hidden md:flex gap-8 w-3/5 center">
           <Link
             to="home"
             duration={1000}
